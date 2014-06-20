@@ -32,8 +32,8 @@ public:
     int getNum();
     int getStatus();                        ///返还方块的当前状态
 
-    bool isMine();
-    bool isEnabled();
+    bool isMine();                          ///当前是不是雷
+    bool isEnabled();                   ///可控状态
 
     void setFlag();
 
