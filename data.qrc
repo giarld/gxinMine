@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/block.png</file>
+        <file>images/boom.png</file>
+        <file>images/button.png</file>
+        <file>images/c1.png</file>
+        <file>images/c2.png</file>
+        <file>images/c3.png</file>
+        <file>images/c4.png</file>
+        <file>images/c5.png</file>
+        <file>images/c6.png</file>
+        <file>images/c7.png</file>
+        <file>images/c8.png</file>
+        <file>images/face1.png</file>
+        <file>images/face2.png</file>
+        <file>images/flag.png</file>
+        <file>images/ico.png</file>
+        <file>images/re.png</file>
+        <file>images/press.png</file>
+        <file>images/mine.ico</file>
+        <file>images/face3.png</file>
+        <file>images/clock.png</file>
+        <file>images/mine.png</file>
+        <file>images/dno.png</file>
+    </qresource>
+</RCC>
