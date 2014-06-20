@@ -25,12 +25,12 @@ public:
     void locked();                              ///锁定 使用初始化或unLocked解锁
     void unLocked();                       ///解锁
     void reBrothers();                      ///解除兄弟
-    void setPoint(int i,int j);
-    QPoint getPoint() const;
+    void setPoint(int i,int j);         ///设置其再方块再主程序中的位置信息，用于布雷算法
+    QPoint getPoint() const;        ///返还位置信息
 
-    void setNum(int s);
+    void setNum(int s);                 ///设置方块显示的数字
     int getNum();
-    int getStatus();
+    int getStatus();                        ///返还方块的当前状态
 
     bool isMine();
     bool isEnabled();
