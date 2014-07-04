@@ -14,7 +14,6 @@ Block::Block(QWidget *parent) :
     pm[7].load(tr(":/images/c7.png"));
     pm[8].load(tr(":/images/c8.png"));
     pm[9].load(tr(":/images/re.png"));
-
     zg[0].load(tr(":/images/button.png"));
     zg[1].load(tr(":/images/press.png"));
     zg[2].load(tr(":/images/flag.png"));
