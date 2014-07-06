@@ -84,6 +84,7 @@ private:
 
     int secs;
     bool isMiss;
+    bool isWin;
 
     bool isZb;        //
 

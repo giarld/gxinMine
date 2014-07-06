@@ -148,6 +148,7 @@ void MainWindow::newGame()
     timeLCD->display(0);
     secs=0;
     isMiss=1;
+    isWin=1;
     run=false;
     startAction->setEnabled(false);
     pauseAction->setEnabled(true);
@@ -157,6 +158,7 @@ void MainWindow::newGame()
 void MainWindow::gameWin()
 {
     run=false;
+    isMiss=1;
     commButton->setIcon(QIcon(tr(":/images/face3.png")));
 
     QString str;
@@ -209,8 +211,7 @@ void MainWindow::gameMiss()
 void MainWindow::gameStart()
 {
     isMiss=0;
-    if(isMiss)
-        return;
+    isWin=0;
 
     gameWidget->gameStart();
 
@@ -221,7 +222,7 @@ void MainWindow::gameStart()
 
 void MainWindow::gamePause()
 {
-    if(isMiss)
+    if(isMiss || isWin)
         return;
 
     run=false;
